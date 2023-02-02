@@ -1,0 +1,8 @@
+<application>
+  <component name="UISettings">
+    <option name="COLOR_BLINDNESS" value="deuteranopia" />
+    <option name="MAX_LOOKUP_WIDTH2" value="1065" />
+    <option name="OPEN_IN_PREVIEW_TAB_IF_POSSIBLE" value="true" />
+    <option name="OVERRIDE_NONIDEA_LAF_FONTS" value="true" />
+  </component>
+</application>

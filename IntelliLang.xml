@@ -1,0 +1,125 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <injection language="RegExp" injector-id="groovy">
+      <display-name>RegExp</display-name>
+      <single-file value="true" />
+      <place>groovyElement().annotationParam(&quot;groovy.lang.Newify&quot;, &quot;pattern&quot;)</place>
+      <place>groovyLiteralExpression().regExpOperatorArgument()</place>
+    </injection>
+    <injection language="encoding-reference" injector-id="java">
+      <display-name>Charset Name</display-name>
+      <single-file value="true" />
+      <place>psiParameter().ofMethod(0, psiMethod().withName(&quot;forName&quot;).withParameters(&quot;java.lang.String&quot;).definedInClass(&quot;java.nio.charset.Charset&quot;))</place>
+      <place>psiParameter().ofMethod(0, psiMethod().withName(&quot;getBytes&quot;).withParameters(&quot;java.lang.String&quot;).definedInClass(&quot;java.lang.String&quot;))</place>
+      <place>psiParameter().ofMethod(0, psiMethod().withName(&quot;isSupported&quot;).withParameters(&quot;java.lang.String&quot;).definedInClass(&quot;java.nio.charset.Charset&quot;))</place>
+      <place>psiParameter().ofMethod(0, psiMethod().withName(&quot;setCharacterEncoding&quot;).withParameters(&quot;java.lang.String&quot;).definedInClass(psiClass().withQualifiedName(string().oneOf(&quot;javax.servlet.ServletResponse&quot;, &quot;jakarta.servlet.ServletResponse&quot;))))</place>
+      <place>psiParameter().ofMethod(0, psiMethod().withName(&quot;toString&quot;).withParameters(&quot;java.lang.String&quot;).definedInClass(&quot;java.io.ByteArrayOutputStream&quot;))</place>
+      <place>psiParameter().ofMethod(1, psiMethod().withName(&quot;InputStreamReader&quot;).withParameters(&quot;java.io.InputStream&quot;, &quot;java.lang.String&quot;).definedInClass(&quot;java.io.InputStreamReader&quot;))</place>
+      <place>psiParameter().ofMethod(1, psiMethod().withName(&quot;OutputStreamWriter&quot;).withParameters(&quot;java.io.OutputStream&quot;, &quot;java.lang.String&quot;).definedInClass(&quot;java.io.OutputStreamWriter&quot;))</place>
+      <place>psiParameter().ofMethod(1, psiMethod().withName(&quot;PrintStream&quot;).withParameters(&quot;java.io.File&quot;, &quot;java.lang.String&quot;).definedInClass(&quot;java.io.PrintStream&quot;))</place>
+      <place>psiParameter().ofMethod(1, psiMethod().withName(&quot;PrintStream&quot;).withParameters(&quot;java.lang.String&quot;, &quot;java.lang.String&quot;).definedInClass(&quot;java.io.PrintStream&quot;))</place>
+      <place>psiParameter().ofMethod(1, psiMethod().withName(&quot;String&quot;).withParameters(&quot;byte[]&quot;, &quot;java.lang.String&quot;).definedInClass(&quot;java.lang.String&quot;))</place>
+      <place>psiParameter().ofMethod(1, psiMethod().withName(&quot;createXMLEventReader&quot;).withParameters(&quot;java.io.InputStream&quot;, &quot;java.lang.String&quot;).definedInClass(&quot;javax.xml.stream.XMLInputFactory&quot;))</place>
+      <place>psiParameter().ofMethod(1, psiMethod().withName(&quot;createXMLEventWriter&quot;).withParameters(&quot;java.io.OutputStream&quot;, &quot;java.lang.String&quot;).definedInClass(&quot;javax.xml.stream.XMLInputFactory&quot;))</place>
+      <place>psiParameter().ofMethod(1, psiMethod().withName(&quot;createXMLStreamReader&quot;).withParameters(&quot;java.io.InputStream&quot;, &quot;java.lang.String&quot;).definedInClass(&quot;javax.xml.stream.XMLInputFactory&quot;))</place>
+      <place>psiParameter().ofMethod(1, psiMethod().withName(&quot;createXMLStreamWriter&quot;).withParameters(&quot;java.io.OutputStream&quot;, &quot;java.lang.String&quot;).definedInClass(&quot;javax.xml.stream.XMLInputFactory&quot;))</place>
+      <place>psiParameter().ofMethod(1, psiMethod().withName(&quot;decode&quot;).withParameters(&quot;java.lang.String&quot;, &quot;java.lang.String&quot;).definedInClass(&quot;java.net.URLDecoder&quot;))</place>
+      <place>psiParameter().ofMethod(1, psiMethod().withName(&quot;encode&quot;).withParameters(&quot;java.lang.String&quot;, &quot;java.lang.String&quot;).definedInClass(&quot;java.net.URLEncoder&quot;))</place>
+      <place>psiParameter().ofMethod(1, psiMethod().withName(&quot;newReader&quot;).withParameters(&quot;java.nio.channels.ReadableByteChannel&quot;, &quot;java.lang.String&quot;).definedInClass(&quot;java.nio.channels.Channels&quot;))</place>
+      <place>psiParameter().ofMethod(1, psiMethod().withName(&quot;newWriter&quot;).withParameters(&quot;java.nio.channels.WritableByteChannel&quot;, &quot;java.lang.String&quot;).definedInClass(&quot;java.nio.channels.Channels&quot;))</place>
+      <place>psiParameter().ofMethod(2, psiMethod().withName(&quot;PrintStream&quot;).withParameters(&quot;java.io.OutputStream&quot;, &quot;boolean&quot;, &quot;java.lang.String&quot;).definedInClass(&quot;java.io.PrintStream&quot;))</place>
+      <place>psiParameter().ofMethod(3, psiMethod().withName(&quot;String&quot;).withParameters(&quot;byte[]&quot;, &quot;int&quot;, &quot;int&quot;, &quot;java.lang.String&quot;).definedInClass(&quot;java.lang.String&quot;))</place>
+    </injection>
+    <injection language="JSONPath" injector-id="java">
+      <display-name>JsonAsserter (com.jayway.jsonpath)</display-name>
+      <single-file value="true" />
+      <place>psiParameter().ofMethod(0, psiMethod().withName(&quot;assertEquals&quot;).definedInClass(&quot;com.jayway.jsonassert.JsonAsserter&quot;))</place>
+      <place>psiParameter().ofMethod(0, psiMethod().withName(&quot;assertNotDefined&quot;).definedInClass(&quot;com.jayway.jsonassert.JsonAsserter&quot;))</place>
+      <place>psiParameter().ofMethod(0, psiMethod().withName(&quot;assertNotNull&quot;).definedInClass(&quot;com.jayway.jsonassert.JsonAsserter&quot;))</place>
+      <place>psiParameter().ofMethod(0, psiMethod().withName(&quot;assertNull&quot;).definedInClass(&quot;com.jayway.jsonassert.JsonAsserter&quot;))</place>
+      <place>psiParameter().ofMethod(0, psiMethod().withName(&quot;assertThat&quot;).definedInClass(&quot;com.jayway.jsonassert.JsonAsserter&quot;))</place>
+    </injection>
+    <injection language="RoomSql" injector-id="java">
+      <display-name>Room Query annotation</display-name>
+      <single-file value="true" />
+      <place>psiMethod().withName(&quot;value&quot;).withParameters().definedInClass(&quot;android.arch.persistence.room.DatabaseView&quot;)</place>
+      <place>psiMethod().withName(&quot;value&quot;).withParameters().definedInClass(&quot;android.arch.persistence.room.Query&quot;)</place>
+      <place>psiMethod().withName(&quot;value&quot;).withParameters().definedInClass(&quot;androidx.room.DatabaseView&quot;)</place>
+      <place>psiMethod().withName(&quot;value&quot;).withParameters().definedInClass(&quot;androidx.room.Query&quot;)</place>
+    </injection>
+    <injection language="RoomSql" injector-id="java">
+      <display-name>SQLiteDatabase methods</display-name>
+      <single-file value="true" />
+      <place>psiParameter().ofMethod(0, psiMethod().withName(&quot;compileStatement&quot;).withParameters(&quot;java.lang.String&quot;).definedInClass(&quot;android.arch.persistence.db.SupportSQLiteDatabase&quot;))</place>
+      <place>psiParameter().ofMethod(0, psiMethod().withName(&quot;compileStatement&quot;).withParameters(&quot;java.lang.String&quot;).definedInClass(&quot;android.database.sqlite.SQLiteDatabase&quot;))</place>
+      <place>psiParameter().ofMethod(0, psiMethod().withName(&quot;compileStatement&quot;).withParameters(&quot;java.lang.String&quot;).definedInClass(&quot;androidx.sqlite.db.SupportSQLiteDatabase&quot;))</place>
+      <place>psiParameter().ofMethod(0, psiMethod().withName(&quot;execSQL&quot;).withParameters(&quot;java.lang.String&quot;).definedInClass(&quot;android.arch.persistence.db.SupportSQLiteDatabase&quot;))</place>
+      <place>psiParameter().ofMethod(0, psiMethod().withName(&quot;execSQL&quot;).withParameters(&quot;java.lang.String&quot;).definedInClass(&quot;android.database.sqlite.SQLiteDatabase&quot;))</place>
+      <place>psiParameter().ofMethod(0, psiMethod().withName(&quot;execSQL&quot;).withParameters(&quot;java.lang.String&quot;).definedInClass(&quot;androidx.sqlite.db.SupportSQLiteDatabase&quot;))</place>
+      <place>psiParameter().ofMethod(0, psiMethod().withName(&quot;execSQL&quot;).withParameters(&quot;java.lang.String&quot;, &quot;java.lang.Object[]&quot;).definedInClass(&quot;android.arch.persistence.db.SupportSQLiteDatabase&quot;))</place>
+      <place>psiParameter().ofMethod(0, psiMethod().withName(&quot;execSQL&quot;).withParameters(&quot;java.lang.String&quot;, &quot;java.lang.Object[]&quot;).definedInClass(&quot;android.database.sqlite.SQLiteDatabase&quot;))</place>
+      <place>psiParameter().ofMethod(0, psiMethod().withName(&quot;execSQL&quot;).withParameters(&quot;java.lang.String&quot;, &quot;java.lang.Object[]&quot;).definedInClass(&quot;androidx.sqlite.db.SupportSQLiteDatabase&quot;))</place>
+      <place>psiParameter().ofMethod(0, psiMethod().withName(&quot;rawQuery&quot;).withParameters(&quot;java.lang.String&quot;, &quot;java.lang.String[]&quot;).definedInClass(&quot;android.database.sqlite.SQLiteDatabase&quot;))</place>
+      <place>psiParameter().ofMethod(0, psiMethod().withName(&quot;rawQuery&quot;).withParameters(&quot;java.lang.String&quot;, &quot;java.lang.String[]&quot;, &quot;android.os.CancellationSignal&quot;).definedInClass(&quot;android.database.sqlite.SQLiteDatabase&quot;))</place>
+      <place>psiParameter().ofMethod(0, psiMethod().withName(&quot;validateSql&quot;).withParameters(&quot;java.lang.String&quot;, &quot;android.os.CancellationSignal&quot;).definedInClass(&quot;android.database.sqlite.SQLiteDatabase&quot;))</place>
+      <place>psiParameter().ofMethod(1, psiMethod().withName(&quot;rawQueryWithFactory&quot;).withParameters(&quot;android.database.sqlite.SQLiteDatabase.CursorFactory&quot;, &quot;java.lang.String&quot;, &quot;java.lang.String[]&quot;, &quot;java.lang.String&quot;).definedInClass(&quot;android.database.sqlite.SQLiteDatabase&quot;))</place>
+      <place>psiParameter().ofMethod(1, psiMethod().withName(&quot;rawQueryWithFactory&quot;).withParameters(&quot;android.database.sqlite.SQLiteDatabase.CursorFactory&quot;, &quot;java.lang.String&quot;, &quot;java.lang.String[]&quot;, &quot;java.lang.String&quot;, &quot;android.os.CancellationSignal&quot;).definedInClass(&quot;android.database.sqlite.SQLiteDatabase&quot;))</place>
+    </injection>
+    <injection language="RegExp" injector-id="java">
+      <display-name>Scanner (java.util)</display-name>
+      <single-file value="true" />
+      <place>psiParameter().ofMethod(0, psiMethod().withName(&quot;findInLine&quot;).withParameters(&quot;java.lang.String&quot;).definedInClass(&quot;java.util.Scanner&quot;))</place>
+      <place>psiParameter().ofMethod(0, psiMethod().withName(&quot;findWithinHorizon&quot;).withParameters(&quot;java.lang.String&quot;, &quot;int&quot;).definedInClass(&quot;java.util.Scanner&quot;))</place>
+      <place>psiParameter().ofMethod(0, psiMethod().withName(&quot;hasNext&quot;).withParameters(&quot;java.lang.String&quot;).definedInClass(&quot;java.util.Scanner&quot;))</place>
+      <place>psiParameter().ofMethod(0, psiMethod().withName(&quot;next&quot;).withParameters(&quot;java.lang.String&quot;).definedInClass(&quot;java.util.Scanner&quot;))</place>
+      <place>psiParameter().ofMethod(0, psiMethod().withName(&quot;skip&quot;).withParameters(&quot;java.lang.String&quot;).definedInClass(&quot;java.util.Scanner&quot;))</place>
+      <place>psiParameter().ofMethod(0, psiMethod().withName(&quot;useDelimiter&quot;).withParameters(&quot;java.lang.String&quot;).definedInClass(&quot;java.util.Scanner&quot;))</place>
+    </injection>
+    <injection language="RegExp" injector-id="java">
+      <display-name>String (java.lang)</display-name>
+      <single-file value="true" />
+      <place>psiParameter().ofMethod(0, psiMethod().withName(&quot;matches&quot;).withParameters(&quot;java.lang.String&quot;).definedInClass(&quot;java.lang.String&quot;))</place>
+      <place>psiParameter().ofMethod(0, psiMethod().withName(&quot;replaceAll&quot;).withParameters(&quot;java.lang.String&quot;, &quot;java.lang.String&quot;).definedInClass(&quot;java.lang.String&quot;))</place>
+      <place>psiParameter().ofMethod(0, psiMethod().withName(&quot;replaceFirst&quot;).withParameters(&quot;java.lang.String&quot;, &quot;java.lang.String&quot;).definedInClass(&quot;java.lang.String&quot;))</place>
+      <place>psiParameter().ofMethod(0, psiMethod().withName(&quot;split&quot;).withParameters(&quot;java.lang.String&quot;).definedInClass(&quot;java.lang.String&quot;))</place>
+      <place>psiParameter().ofMethod(0, psiMethod().withName(&quot;split&quot;).withParameters(&quot;java.lang.String&quot;, &quot;int&quot;).definedInClass(&quot;java.lang.String&quot;))</place>
+    </injection>
+    <injection language="RegExp" injector-id="java">
+      <display-name>StringSubject (com.google.common.truth)</display-name>
+      <single-file value="true" />
+      <place>psiParameter().ofMethod(0, psiMethod().withName(&quot;containsMatch&quot;).definedInClass(&quot;com.google.common.truth.StringSubject&quot;))</place>
+      <place>psiParameter().ofMethod(0, psiMethod().withName(&quot;doesNotContainMatch&quot;).definedInClass(&quot;com.google.common.truth.StringSubject&quot;))</place>
+      <place>psiParameter().ofMethod(0, psiMethod().withName(&quot;doesNotMatch&quot;).definedInClass(&quot;com.google.common.truth.StringSubject&quot;))</place>
+      <place>psiParameter().ofMethod(0, psiMethod().withName(&quot;matches&quot;).definedInClass(&quot;com.google.common.truth.StringSubject&quot;))</place>
+    </injection>
+    <injection language="JSONPath" injector-id="java">
+      <display-name>WriteContext (com.jayway.jsonpath)</display-name>
+      <single-file value="true" />
+      <place>psiParameter().ofMethod(0, psiMethod().withName(&quot;add&quot;).definedInClass(&quot;com.jayway.jsonpath.WriteContext&quot;))</place>
+      <place>psiParameter().ofMethod(0, psiMethod().withName(&quot;delete&quot;).definedInClass(&quot;com.jayway.jsonpath.WriteContext&quot;))</place>
+      <place>psiParameter().ofMethod(0, psiMethod().withName(&quot;map&quot;).definedInClass(&quot;com.jayway.jsonpath.WriteContext&quot;))</place>
+      <place>psiParameter().ofMethod(0, psiMethod().withName(&quot;put&quot;).definedInClass(&quot;com.jayway.jsonpath.WriteContext&quot;))</place>
+      <place>psiParameter().ofMethod(0, psiMethod().withName(&quot;renameKey&quot;).definedInClass(&quot;com.jayway.jsonpath.WriteContext&quot;))</place>
+      <place>psiParameter().ofMethod(0, psiMethod().withName(&quot;set&quot;).definedInClass(&quot;com.jayway.jsonpath.WriteContext&quot;))</place>
+    </injection>
+    <injection language="RegExp" injector-id="kotlin">
+      <display-name>Kotlin</display-name>
+      <single-file value="true" />
+      <place>kotlinParameter().ofFunction(0, kotlinFunction().withName(&quot;Regex&quot;).definedInClass(&quot;kotlin.text.Regex&quot;))</place>
+      <place>receiver().ofFunction(kotlinFunction().withName(&quot;toPattern&quot;).withReceiver(&quot;kotlin.String&quot;).definedInPackage(&quot;kotlin.text&quot;))</place>
+      <place>receiver().ofFunction(kotlinFunction().withName(&quot;toRegex&quot;).withReceiver(&quot;kotlin.String&quot;).definedInPackage(&quot;kotlin.text&quot;))</place>
+    </injection>
+    <injection language="RegExp" injector-id="xml">
+      <display-name>IntelliJ IDEA injection patterns</display-name>
+      <single-file value="true" />
+      <place>xmlTag().withLocalName(&quot;ignore-pattern&quot;).withParent(xmlTag().withLocalName(&quot;injection&quot;).withParent(xmlTag().withLocalName(&quot;component&quot;)))</place>
+      <place>xmlTag().withLocalName(&quot;value-pattern&quot;).withParent(xmlTag().withLocalName(&quot;injection&quot;).withParent(xmlTag().withLocalName(&quot;component&quot;)))</place>
+    </injection>
+    <injection language="Groovy" injector-id="xml">
+      <display-name>IntelliJ IDEA pattern</display-name>
+      <single-file value="true" />
+      <place>xmlTag().withLocalName(&quot;pattern&quot;).inside(xmlTag().withLocalName(&quot;idea-plugin&quot;))</place>
+      <place>xmlTag().withLocalName(&quot;place&quot;).withParent(xmlTag().withLocalName(&quot;injection&quot;).withParent(xmlTag().withLocalName(&quot;component&quot;)))</place>
+    </injection>
+  </component>
+</application>

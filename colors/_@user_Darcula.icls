@@ -1,0 +1,30 @@
+<scheme name="_@user_Darcula" version="142" parent_scheme="Darcula">
+  <metaInfo>
+    <property name="created">2022-12-19T09:37:59</property>
+    <property name="ide">Idea</property>
+    <property name="ideVersion">2022.2.1.0.0</property>
+    <property name="modified">2022-12-19T09:39:20</property>
+    <property name="originalScheme">Darcula</property>
+    <property name="rainbow 默认语言">true</property>
+  </metaInfo>
+  <attributes>
+    <option name="HTML_CODE">
+      <value />
+    </option>
+    <option name="JAVA_LINE_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="7a7a7a" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="KOTLIN_LABEL">
+      <value />
+    </option>
+    <option name="MATCHED_BRACE_ATTRIBUTES">
+      <value>
+        <option name="BACKGROUND" value="3b514d" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+  </attributes>
+</scheme>

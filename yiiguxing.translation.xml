@@ -1,0 +1,158 @@
+<application>
+  <component name="AppStorage">
+    <option name="newTranslationDialogWidth" value="596" />
+    <option name="newTranslationDialogX" value="596" />
+    <option name="newTranslationDialogY" value="344" />
+    <option name="pinTranslationDialog" value="true" />
+    <histories>
+      <item value="Execution" />
+      <item value="simulate" />
+      <item value="simulating" />
+      <item value="simulating execution" />
+      <item value="PASS" />
+      <item value="Simulated" />
+      <item value="模拟资源执行" />
+      <item value="Negative" />
+      <item value="failed" />
+      <item value="记录日志" />
+      <item value="Unexpected Convergence Result" />
+      <item value="允许执行" />
+      <item value="reply Convergence Result Then Execute" />
+      <item value="directly" />
+      <item value="if the last rule can not be executed anyway" />
+      <item value="Unexpected" />
+      <item value="期待" />
+      <item value="Excepted" />
+      <item value="Un Excepted" />
+      <item value="Regular" />
+      <item value="actuator" />
+      <item value="监控" />
+      <item value="adjust" />
+      <item value="Console" />
+      <item value="reply to client with missing slots" />
+      <item value="via" />
+      <item value="also" />
+      <item value="自定义的" />
+      <item value="执行人" />
+      <item value="account" />
+      <item value="填充" />
+      <item value="Asynchronously experiment" />
+      <item value="experimental" />
+      <item value="Asynchronously" />
+      <item value="受影响的" />
+      <item value="affect" />
+      <item value="authorize" />
+      <item value="已解析" />
+      <item value="Future" />
+      <item value="Completable Future" />
+      <item value="Completion Stage" />
+      <item value="Completable" />
+      <item value="execution" />
+      <item value="资源鉴权，过滤意图" />
+      <item value="认证通过的" />
+      <item value="Resource authentication" />
+      <item value="Resource authentication failed" />
+      <item value="Sorry, the same resource operation was not completed last time" />
+      <item value="Sorry, the same resource operation was not completed last time!" />
+      <item value="execute Rule" />
+    </histories>
+    <option name="languageScores">
+      <map>
+        <entry key="CHINESE" value="94" />
+        <entry key="ENGLISH" value="94" />
+      </map>
+    </option>
+  </component>
+  <component name="Cache">
+    <option name="lastTrimTime" value="1669622186751" />
+  </component>
+  <component name="Settings">
+    <option name="translator" value="YOUDAO" />
+    <option name="youdaoTranslateSettings">
+      <youdao-translate>
+        <option name="appId" value="1a8df3d997f33435" />
+      </youdao-translate>
+    </option>
+  </component>
+  <component name="Translation.Cache">
+    <option name="lastTrimTime" value="1674898374088" />
+  </component>
+  <component name="Translation.Settings">
+    <option name="primaryLanguage" value="AUTO" />
+    <option name="showWordsOnStartup" value="true" />
+    <option name="translator" value="YOUDAO" />
+    <option name="youdaoTranslateSettings">
+      <youdao-translate>
+        <option name="appId" value="1a8df3d997f33435" />
+      </youdao-translate>
+    </option>
+  </component>
+  <component name="Translation.States">
+    <option name="newTranslationDialogWidth" value="596" />
+    <option name="newTranslationDialogX" value="596" />
+    <option name="newTranslationDialogY" value="344" />
+    <option name="pinTranslationDialog" value="true" />
+    <histories>
+      <item value="progress" />
+      <item value="Process" />
+      <item value="central" />
+      <item value="centeral" />
+      <item value="Negative" />
+      <item value="decide to trust or not" />
+      <item value="Creating a new Random object each time a random value is needed is inefficient and may produce numbers which are not random depending on the JDK. For better efficiency and randomness, create a single Random, then store, and reuse it. The Random() constructor tries to set the seed with a distinct value every time. However there is no guarantee that the seed will be random or even uniformly distributed. Some JDK will use the current time as seed, which makes the generated numbers not random at all. This rule finds cases where a new Random is created each time a method is invoked." />
+      <item value="第三方" />
+      <item value="innocent" />
+      <item value="This handler does all the heavy lifting for you to run a websocket server. It takes care of websocket handshaking as well as processing of control frames (Close, Ping, Pong). Text and Binary data frames are passed to the next handler in the pipeline (implemented by you) for processing. See io.netty.example.http.websocketx.html5.WebSocketServer for usage. The implementation of this handler assumes that you just want to run a websocket server and not process other types HTTP requests (like GET and POST). If you wish to support both HTTP requests and websockets in the one server, refer to the io.netty.example.http.websocketx.server.WebSocketServer example. To know once a handshake was done you can intercept the ChannelHandler.userEventTriggered(ChannelHandlerContext, Object) and check if the event was of type WebSocketServerProtocolHandler.ServerHandshakeStateEvent.HANDSHAKE_COMPLETE." />
+      <item value="handler" />
+      <item value="to" />
+      <item value="respon" />
+      <item value="Respon" />
+      <item value="judgement" />
+      <item value="首次判定" />
+      <item value="from Confirm" />
+      <item value="convergence" />
+      <item value="Determine whether to execute" />
+      <item value="need second confirmation whatever if an execution resource" />
+      <item value="whatever" />
+      <item value="confirmation" />
+      <item value="ASK" />
+      <item value="EXECUTION ASK" />
+      <item value="CONVERGENCE" />
+      <item value="Executing, please waiting" />
+      <item value="vivid" />
+      <item value="italic" />
+      <item value="Execution Error" />
+      <item value="相对" />
+      <item value="Regular" />
+      <item value="successfully" />
+      <item value="shiro" />
+      <item value="shi" />
+      <item value="意外" />
+      <item value="oops" />
+      <item value="This operation is cancelled" />
+      <item value="directly" />
+      <item value="正因子" />
+      <item value="simulation" />
+      <item value="consistency" />
+      <item value="Execution" />
+      <item value="ThreadLocal variables are supposed to be garbage collected once the holding thread is no longer alive. Memory leaks can occur when holding threads are re-used which is the case on application servers using pool of threads. To avoid such problems, it is recommended to always clean up ThreadLocal variables using the remove() method to remove the current thread’s value for the ThreadLocal variable. In addition, calling set(null) to remove the value might keep the reference to this pointer in the map, which can cause memory leak in some scenarios. Using remove is safer to avoid this issue." />
+      <item value="Rule will not detect non-private ThreadLocal variables, because remove() can be called from another class." />
+      <item value="Unexpected consistency error" />
+      <item value="Consistency" />
+      <item value="一致性" />
+      <item value="Session disappeared" />
+      <item value="dispear" />
+      <item value="close Advanced" />
+    </histories>
+    <option name="languageScores">
+      <map>
+        <entry key="CHINESE" value="63" />
+        <entry key="DANISH" value="2" />
+        <entry key="ENGLISH" value="59" />
+        <entry key="ESPERANTO" value="1" />
+        <entry key="INDONESIAN" value="3" />
+        <entry key="VIETNAMESE" value="3" />
+      </map>
+    </option>
+  </component>
+</application>

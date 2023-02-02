@@ -1,0 +1,12 @@
+<application>
+  <component name="IgnoredPluginSuggestions">
+    <option name="pluginIds">
+      <list>
+        <option value="com.haulmont.jpab" />
+        <option value="idea.plugin.protoeditor" />
+        <option value="com.github.bufbuild.intellij" />
+        <option value="dev.eltonsandre.intellij.spring.assistant.plugin" />
+      </list>
+    </option>
+  </component>
+</application>
