@@ -75,7 +75,7 @@
     </option>
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1674898374088" />
+    <option name="lastTrimTime" value="1675839559238" />
   </component>
   <component name="Translation.Settings">
     <option name="primaryLanguage" value="AUTO" />
@@ -93,6 +93,7 @@
     <option name="newTranslationDialogY" value="344" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="覆盖" />
       <item value="progress" />
       <item value="Process" />
       <item value="central" />
@@ -142,13 +143,12 @@
       <item value="一致性" />
       <item value="Session disappeared" />
       <item value="dispear" />
-      <item value="close Advanced" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="63" />
+        <entry key="CHINESE" value="64" />
         <entry key="DANISH" value="2" />
-        <entry key="ENGLISH" value="59" />
+        <entry key="ENGLISH" value="60" />
         <entry key="ESPERANTO" value="1" />
         <entry key="INDONESIAN" value="3" />
         <entry key="VIETNAMESE" value="3" />
