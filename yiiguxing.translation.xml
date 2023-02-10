@@ -93,6 +93,11 @@
     <option name="newTranslationDialogY" value="344" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="connectivity Check" />
+      <item value="connectivity" />
+      <item value="连通性校验" />
+      <item value="可用性检验" />
+      <item value="avaiable" />
       <item value="state transfer function" />
       <item value="state function" />
       <item value="覆盖" />
@@ -138,17 +143,12 @@
       <item value="simulation" />
       <item value="consistency" />
       <item value="Execution" />
-      <item value="ThreadLocal variables are supposed to be garbage collected once the holding thread is no longer alive. Memory leaks can occur when holding threads are re-used which is the case on application servers using pool of threads. To avoid such problems, it is recommended to always clean up ThreadLocal variables using the remove() method to remove the current thread’s value for the ThreadLocal variable. In addition, calling set(null) to remove the value might keep the reference to this pointer in the map, which can cause memory leak in some scenarios. Using remove is safer to avoid this issue." />
-      <item value="Rule will not detect non-private ThreadLocal variables, because remove() can be called from another class." />
-      <item value="Unexpected consistency error" />
-      <item value="Consistency" />
-      <item value="一致性" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="66" />
+        <entry key="CHINESE" value="71" />
         <entry key="DANISH" value="2" />
-        <entry key="ENGLISH" value="62" />
+        <entry key="ENGLISH" value="67" />
         <entry key="ESPERANTO" value="1" />
         <entry key="INDONESIAN" value="3" />
         <entry key="VIETNAMESE" value="3" />
