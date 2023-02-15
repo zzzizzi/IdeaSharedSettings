@@ -93,6 +93,8 @@
     <option name="newTranslationDialogY" value="344" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="resp" />
+      <item value="连通性校验" />
       <item value="fail" />
       <item value="has updated connectivity status" />
       <item value="connectivity" />
@@ -101,7 +103,6 @@
       <item value="连通性" />
       <item value="Multi Result" />
       <item value="connectivity Check" />
-      <item value="连通性校验" />
       <item value="可用性检验" />
       <item value="avaiable" />
       <item value="state transfer function" />
@@ -142,13 +143,12 @@
       <item value="shiro" />
       <item value="shi" />
       <item value="意外" />
-      <item value="oops" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="76" />
+        <entry key="CHINESE" value="78" />
         <entry key="DANISH" value="2" />
-        <entry key="ENGLISH" value="72" />
+        <entry key="ENGLISH" value="74" />
         <entry key="ESPERANTO" value="1" />
         <entry key="INDONESIAN" value="3" />
         <entry key="VIETNAMESE" value="3" />
