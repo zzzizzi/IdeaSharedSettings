@@ -93,6 +93,9 @@
     <option name="newTranslationDialogY" value="344" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="trusting" />
+      <item value="trusting client" />
+      <item value="提供" />
       <item value="central" />
       <item value="central pod" />
       <item value="组织" />
@@ -140,15 +143,12 @@
       <item value="italic" />
       <item value="Execution Error" />
       <item value="相对" />
-      <item value="Regular" />
-      <item value="successfully" />
-      <item value="shiro" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="81" />
+        <entry key="CHINESE" value="84" />
         <entry key="DANISH" value="2" />
-        <entry key="ENGLISH" value="76" />
+        <entry key="ENGLISH" value="79" />
         <entry key="ESPERANTO" value="1" />
         <entry key="INDONESIAN" value="4" />
         <entry key="VIETNAMESE" value="3" />
