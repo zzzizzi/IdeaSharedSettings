@@ -93,6 +93,7 @@
     <option name="newTranslationDialogY" value="344" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="Connectivity" />
       <item value="trusting" />
       <item value="trusting client" />
       <item value="提供" />
@@ -142,13 +143,12 @@
       <item value="vivid" />
       <item value="italic" />
       <item value="Execution Error" />
-      <item value="相对" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="84" />
+        <entry key="CHINESE" value="85" />
         <entry key="DANISH" value="2" />
-        <entry key="ENGLISH" value="79" />
+        <entry key="ENGLISH" value="80" />
         <entry key="ESPERANTO" value="1" />
         <entry key="INDONESIAN" value="4" />
         <entry key="VIETNAMESE" value="3" />
