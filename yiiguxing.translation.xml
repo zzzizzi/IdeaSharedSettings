@@ -75,7 +75,7 @@
     </option>
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1676358813098" />
+    <option name="lastTrimTime" value="1676882492697" />
   </component>
   <component name="Translation.Settings">
     <option name="primaryLanguage" value="AUTO" />
@@ -93,6 +93,10 @@
     <option name="newTranslationDialogY" value="344" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="fire Handle" />
+      <item value="file Handle" />
+      <item value="No convergence rules can be executed&quot;" />
+      <item value="if the last rule can not be executed anyway, then PASS" />
       <item value="Connectivity" />
       <item value="trusting" />
       <item value="trusting client" />
@@ -139,16 +143,12 @@
       <item value="ASK" />
       <item value="EXECUTION ASK" />
       <item value="CONVERGENCE" />
-      <item value="Executing, please waiting" />
-      <item value="vivid" />
-      <item value="italic" />
-      <item value="Execution Error" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="85" />
+        <entry key="CHINESE" value="89" />
         <entry key="DANISH" value="2" />
-        <entry key="ENGLISH" value="80" />
+        <entry key="ENGLISH" value="84" />
         <entry key="ESPERANTO" value="1" />
         <entry key="INDONESIAN" value="4" />
         <entry key="VIETNAMESE" value="3" />
